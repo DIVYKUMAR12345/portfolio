@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d2a163e33.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+         <nav>
+            <img src="logo.4.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-ellipsis" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+         <p>Web developer</p>
+         <h1>Hi, I'm <span>spandan</span><br> patel from india</h1>
+        </div>
+    </div>
+</div> 
+<!-- ---------about----------- -->
+<div id="about">
+    <div id="container">
+        <div class="row">
+            <div class="about-cal-1">
+                <img src="user2.png">
+            </div>
+            <div class="about-cal-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>I'm dedicated and focused student pursuing a career
+                 in Information Technology or Computer Engineering.
+                 subjects like Object-Oriented Programming with UML
+                 also modern technologies like AR/VR, Metaverse, UI/UX,
+                 and Web Technologies. This pattern also hints that 
+                 i'm excel in roles where logical thinking, creativity,
+                 and problem-solving converge, such as software engineering,
+                 UI/UX design, or AR/VR development.
+                 Subjects of Interest:
+                 Object Oriented Programming with UML (OOPU)
+                 Computer Graphics with AR/VR and Metaverse (CGAVM)
+                 Web Technology with UI/UX.</p>
+
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Developer</span><br>web app developer</li>
+                        <li><span>UI/UX</span><br> Designing interfaces</li>
+                        <li><span>Editer</span><br> video and photo editor</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025 -current </span><br>silver oak university | B.TECH of Computer Engineering</li>
+                        <li><span>2021 - 2024 Diploma</span><br> VPMP POLYTECHNIC | Computer Engineering</li>
+                        <li><span>2023 -internship</span><br> BrainyBeam Info-Tech Pvt Ltd</li>
+                        <li><span>2019 -2020 School 10th</span><br>Royal School</li>
+                    </ul>
+                 </div>   
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ---------services----------- -->  
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>web design</h2>
+            <p>We craft a design that reflects your brands identity
+            using the right colors, fonts, and images to create a strong
+            and memorable online presence.</p>
+            <a href="#">Learn more</a>
+          </div>  
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX design</h2>
+            <p>I focus on understanding your business goals and 
+             user needs to design websites, mobile apps, or 
+             software interfaces that help your users interact with
+             your product smoothly and effectively..</p>
+            <a href="#">Learn more</a>
+          </div>  
+          <div>
+            <i class="fa-regular fa-pen-to-square"></i>
+            <h2>Editor</h2>
+            <p>As a Video Editor, I help transform your raw video footage
+             into polished, engaging, and impactful content that tells your story effectively
+             Whether it's for social media, marketing, corporate presentations
+             YouTube, or events..</p>
+            <a href="#">Learn more</a>
+          </div>  
+        </div>
+    </div>
+ </div>
+
+<!---------portfolio----------- -->
+
+<div id="portfolio">
+    <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+               <div class="work">
+                     <img src="work-1.png">
+                     <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Whether you want to share photos, videos, stories
+                        or live moments.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                     </div>
+               </div>
+               <div class="work">
+                     <img src="work-2.png">
+                      <div class="layer">
+                        <h3>Music playlist</h3>
+                        <p>Travel back in time with this collection of retro hits
+                        disco grooves, and timeless classics. From the '70s to the '90s.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                     </div>
+               </div>
+               <div class="work">
+                     <img src="work-4.png">
+                      <div class="layer">
+                        <h3>Animation </h3>
+                        <p>they're the Extendable Shoes, designed to adapt, expand
+                        and transform with your imagination.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                     </div>
+               </div>
+          </div>
+          <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!---------contact----------- -->
+<div id="contact">
+    <div id="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <P><i class="fa-solid fa-paper-plane"></i> patelspandan10@gmail.com</P>
+                <P><i class="fa-solid fa-phone"></i> +91 9875082295</P>
+                <div class="social-icons">
+                    <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="spandan.pdf" download class="btn btn2">Download cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ spandan.<i class="fa-regular fa-copyright"></i>portfolio website</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+       } 
+        
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       } 
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+        
+    }
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemeu.style.right="0"
+         }
+    function closemenu(){
+        sidemeu.style.right="-200px"
+        }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxJavl_Gobhu8J5xtCsYEUSKFg0F4QwwXJUkC1cFqOp_8V7CdTb2KMTBSA2YleZq2rL/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const  msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+           msg.innerHTML = "Message sent succesfully"
+           setTimeout(function(){
+            msg.innerHTML =""
+           },1500)
+           form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+</html>
